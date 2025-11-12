@@ -9,5 +9,5 @@ ON [PRIMARY]
 GO
 
 ALTER TABLE [dbo].[Pedidos]
-  ADD FOREIGN KEY ([ClienteID]) REFERENCES [dbo].[Clientes] ([ClienteID])
+  ADD CONSTRAINT [FK__Pedidos__Cliente__398D8EEE] FOREIGN KEY ([ClienteID]) REFERENCES [dbo].[Clientes] ([ClienteID])
 GO
